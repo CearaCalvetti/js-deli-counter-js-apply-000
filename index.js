@@ -5,8 +5,8 @@ function takeANumber(cLOP, newPersonName){
 }
 
 funcion nowServing(cLOP){
-var firstPerson = cLOP[0];
 cLOP.shift(firstPerson);
+var firstPerson = cLOP[0];
 if (cLOP.length === 0){return "There is nobody waiting to be served!"}
 else {return firstPerson}
 }
